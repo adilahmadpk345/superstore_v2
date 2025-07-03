@@ -1,0 +1,26 @@
+superstore_v2/
+├── assets/
+│   ├── css/style.css   (Custom styles)
+│   ├── js/app.js       (Future JavaScript)
+│   └── images/logo.png
+├── config/
+│   ├── database.php    (DB connection)
+│   └── constants.php   (Site settings)
+├── controllers/
+│   ├── AuthController.php
+│   └── DashboardController.php
+├── models/
+│   ├── User.php
+│   └── Database.php    (PDO wrapper)
+├── views/
+│   ├── auth/
+│   │   ├── login.php
+│   │   └── register.php
+│   ├── dashboard/
+│   │   └── index.php
+│   └── includes/
+│       ├── header.php
+│       ├── sidebar.php
+│       └── footer.php
+├── .htaccess           (For clean URLs)
+└── index.php           (Front controller)
